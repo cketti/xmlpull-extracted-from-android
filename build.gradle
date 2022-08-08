@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'maven-publish'
+}
+
+group 'com.github.cketti'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+publishing {
+    publications {
+        maven(MavenPublication) {
+            from components.java
+        }
+    }
+}
+
+wrapper {
+    gradleVersion = "7.5.1"
+    distributionType = Wrapper.DistributionType.BIN
+}

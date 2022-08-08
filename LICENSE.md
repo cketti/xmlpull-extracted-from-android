@@ -1,0 +1,19 @@
+From http://xmlpull.org/v1/download/xmlpull_1_0_5_src.zip:
+
+```text
+XMLPULL API IS FREE
+-------------------
+
+All of the XMLPULL API source code, compiled code, and documentation
+contained in this distribution *except* for tests (see separate LICENSE_TESTS.txt)
+are in the Public Domain.
+
+XMLPULL API comes with NO WARRANTY or guarantee of fitness for any purpose.
+
+Initial authors:
+
+  Stefan Haustein
+  Aleksander Slominski
+
+2001-12-12
+```
